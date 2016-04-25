@@ -1,50 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config version="10">
-	<modules>
-		<module name="service" version="1" model="ServiceModel"/>
-		<module name="chapterquestion" version="1" model="ChapterQuestionModel"/>
-		<module name="actions" version="1" model="ActionsModel"/>
-		<module name="alerte" version="1" model="AlerteModel"/>
-		<module name="downloads" version="2" model="DownloadsModel"/>
-		<module name="emailrappel" version="1" model="EmailRappelModel"/>
-		<module name="eventparams" version="6" model="EventParamsModel"/>
-		<module name="flux" version="5" model="FluxModel"/>
-		<module name="inscriptionsas" version="3" model="InscriptionSasModel"/>
-		<module name="intervenants" version="3" model="IntervenantsModel"/>
-		<module name="iprestrict" version="1" model="IprestrictModel"/>
-		<module name="message" version="1" model="MessageModelFake"/>
-		<module name="questions" version="2" model="QuestionsModel"/>
-		<module name="slides" version="3" model="SlidesModel"/>
-		<module name="state" version="3" model="StateModel"/>
-		<module name="chapter" version="3" model="ChapterModel"/>
-		<module name="visitor" version="1" model="VisitorModel"/>
-		<module name="vod" version="7" model="VodModel"/>
-		<module name="droits" version="1" model="DroitsModel"/>		
-		<module name="survey" version="6" model="SurveyModel" />
-		<module name="textes" version="2" model="TextesModel"/>
-		<module name="emailrestrict" version="1" model="EmailRestrictModel"/>
-		<module name="surveyreport" version="3" model="SurveyReportModel"/>
-		<module name="invitations" version="5" model="InvitationsModel"/>
-		<module name="recherche" version="2" model="RechercheModel"/>
-		<module name="report" version="1" model="ReportModel"/>
-		<module name="reportsmanager" version="2" model="ReportsmanagerModel"/>
-		<module name="consolelive" version="1" model="ConsoleLiveModel"/>
-		<module name="pages" version="6" model="PagesModel"/>
-		<module name="stats" version="2" model="StatsModel"/>				
-		<module name="categorie" version="1" model="CategorieModel"/>
-		<module name="charte" version="1" model="CharteModel"/>
-		<module name="client" version="2" model="ClientModel"/>
+	<modules>	
 		<module name="core" version="1" model="CoreModel"/>
-		<module name="domains" version="1" model="DomainsModel"/>
-		<module name="event" version="3" model="EventModel">
-			<option name="map"/>
-		</module>		
-		<module name="group" version="1" model="GroupModel"/>
-		<module name="log" version="2" model="LogModel"/>
-		<module name="module" version="1" model="ModuleModel"/>
-		<module name="user" version="2" model="UserModel"/>		
-		<module name="menu" version="2" model="MenuModel"/>		
-		<module name="questionlist" version="1" model="QuestionlistModel"/>		
+		<module name="base" version="1" model="BaseModel"/>
 	</modules>
 	<paths>
 		<path name="GLOBAL_CONFIG_XML" value="xml/config.xml"/>

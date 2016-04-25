@@ -4,7 +4,9 @@
 
 abstract class Security {
 
-    public static function checkAdminByPass(){
+    public static function checkAdminByPass()
+    {
+    	return false;
         self::checkIncludeByPass();
         self::forceUTF8Header();
 		self::checkModuleAccess();

@@ -1973,12 +1973,12 @@
 		<langue name="fr">Attention:&lt;br/&gt;
 - ne pas utiliser en même temps qu'un player supportant les synchro passant par le stream &lt;br/&gt;
 - à réserver aux intégrations HTML5 type mobile &lt;br/&gt;
-- modifier en conséquence la variable 'notifydelay' dans le fichier de configuration du CommandCenter (exemple: 500)
+- modifier en conséquence la variable 'notifydelay' dans le fichier de configuration du  (exemple: 500)
 		</langue>
 		<langue name="en">Attention:&lt;br/&gt;
 - don't use with stream sync compatible player &lt;br/&gt;
 - to use in HTML5/mobile integration context &lt;br/&gt;
-- don't forget to edit variable 'notifydelay' in CommandCenter config file (example: 500)
+- don't forget to edit variable 'notifydelay' in  config file (example: 500)
 		</langue>
 	</text>
 	<text id="eventparams_PollingCurrents_Interval">
@@ -2972,15 +2972,15 @@
 	<text id="auth_rs_error">
 		<langue name="fr">L'identifiant ou le mot de passe est incorrect.</langue>
 		<langue name="en">Wrong login or password.</langue>
-	</text>
-	<text id="auth_logout">
-		<langue name="fr">Se déconnecter</langue>
-		<langue name="en">Logout</langue>
-	</text>
+	</text>	
 	<text id="auth_personalinfo">
 		<langue name="fr">Information personnelle</langue>
 		<langue name="en">Personal Information</langue>
 	</text>
+	<text id="auth_being">
+	    <langue name="fr">Being</langue>
+		<langue name="en">Being</langue>
+	</text> 
 	<text id="auth_welcome">
 		<langue name="fr">Bienvenue</langue>
 		<langue name="en">Welcome</langue>
@@ -4435,8 +4435,8 @@
 		<langue name="fr">dernière version insérée</langue>
 	</text>
 	<text id="vod_form_label_log">
-		<langue name="en">Log CommandCenter</langue>
-		<langue name="fr">Log CommandCenter</langue>
+		<langue name="en">Log </langue>
+		<langue name="fr">Log </langue>
 	</text>
 	<text id="vod_form_error_error">
 		<langue name="en">Error : </langue>
@@ -4759,16 +4759,16 @@
 		<langue name="en">Skin saved</langue>
 	</text>
 	<text id="charte_label_title">
-		<langue name="fr">Habillage du ControlCenter</langue>
-		<langue name="en">ControlCenter Skin</langue>
+		<langue name="fr">Habillage du </langue>
+		<langue name="en"> Skin</langue>
 	</text>
   <text id="charte_label_title_explain">
 		<langue name="fr">Aide</langue>
 		<langue name="en">Help</langue>
 	</text>
   <text id="charte_label_explain">
-		<langue name="fr">Changer l'apparence du ControlCenter en cliquant sur les zones encadrées en rouges. Changer les images de fond et les couleurs pour obtenir un nouvel habillage. Attention, pour visualiser les changements, il est nécessaire de rafraichir la page en appuyant sur 'F5' ou en se reconnectant.</langue>
-		<langue name="en">Customize the ControlCenter skin by clicking in red bordered areas. Change the background images and the colors to get a new skin. Attention, to see the modifications, you have to refresh the current page with 'F5' or re-connect.</langue>
+		<langue name="fr">Changer l'apparence du  en cliquant sur les zones encadrées en rouges. Changer les images de fond et les couleurs pour obtenir un nouvel habillage. Attention, pour visualiser les changements, il est nécessaire de rafraichir la page en appuyant sur 'F5' ou en se reconnectant.</langue>
+		<langue name="en">Customize the  skin by clicking in red bordered areas. Change the background images and the colors to get a new skin. Attention, to see the modifications, you have to refresh the current page with 'F5' or re-connect.</langue>
 	</text>
   <text id="charte_restoreDefault_title">
 		<langue name="fr">Habillage par défaut</langue>
@@ -7174,4 +7174,14 @@ Le rapport ci-après liste les adresses ajoutées, celles déjà existantes, ain
 		<langue name="fr">Filtre de recherche avancé</langue>
 		<langue name="en">Advanced search engine</langue>
 	</text>
+	
+	<text id="baseCreateLbl">
+		<langue name="fr">Nouvelle</langue>
+		<langue name="en">New</langue>
+	</text>
+	<text id="baseLogout">
+		<langue name="fr">Quitter</langue>
+		<langue name="en">Logout</langue>
+	</text>
+	
 </texts>

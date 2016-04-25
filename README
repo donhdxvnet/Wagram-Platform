@@ -1,0 +1,7 @@
+http://localhost/Ai
+login : test
+password : test
+
+base/new : apple
+
+http://localhost/Ai/AiBases/apple/

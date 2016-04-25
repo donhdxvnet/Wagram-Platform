@@ -34,7 +34,8 @@ abstract class Config
 	{
 		if (!self::$_isInit)
 		{
-			include 'switch_host.php';
+			require_once("switch_host.php");
+			$switch_host_profile = null;
 			switch($switch_host_profile)
 			{
 				case 'devpt':
@@ -176,8 +177,10 @@ abstract class Config
             return self::$_ccCopyright;
     }
 
-    public static function getStage(){
-        include 'switch_host.php';
+    public static function getStage()
+    {
+    	$switch_host_profile = null;    	
+        require_once("switch_host.php");
         return $switch_host_profile;
     }
 }

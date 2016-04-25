@@ -31,7 +31,7 @@ class Context
         $n = $l->item(0);
         $class = $n->getAttribute('model');
         $mversion = $n->getAttribute('version');
-        $mpath = dirname(__FILE__).'/../../../modules/'.$name.'/'.$mversion.'/'.$class.'.class.php';		
+        $mpath = dirname(__FILE__).'/../../../modules/'.$name.'/'.$mversion.'/'.$class.'.php';		
         require_once $mpath;
         
         return new $class($_SESSION['oUser'], $_SESSION['oClient'], $_SESSION['oEvent'], self::$cPath);
