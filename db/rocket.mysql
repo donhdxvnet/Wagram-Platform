@@ -1,0 +1,40 @@
+CREATE DATABASE `rocket` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+CREATE TABLE `base` (
+  `autoid` int(11) NOT NULL AUTO_INCREMENT,
+  `id` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`autoid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `being` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `login` varchar(45) NOT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  `firstname` varchar(45) DEFAULT NULL,
+  `lastname` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `lifetime` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idBeing` int(11) DEFAULT NULL,
+  `connDate` datetime DEFAULT NULL,
+  `discDate` datetime DEFAULT NULL,
+  `conn` int(11) DEFAULT NULL,
+  `sessid` varchar(255) DEFAULT NULL,
+  UNIQUE KEY `id_UNIQUE` (`id`,`idBeing`),
+  KEY `idUser_id_idx` (`idBeing`),
+  CONSTRAINT `idUser_id` FOREIGN KEY (`idBeing`) REFERENCES `being` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf8;
+
+INSERT INTO `rocket`.`being`
+(`login`,
+`password`,
+`firstname`,
+`lastname`)
+VALUES
+(<{login: 'test'}>,
+<{password: 'test'}>,
+<{firstname: 'test'}>,
+<{lastname: 'test'}>);
