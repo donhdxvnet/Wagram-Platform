@@ -7,7 +7,7 @@
 		
 		//Constants	
 		//TODO : A stocker dans la session	
-		define("ROOT", "Ai");
+		define("ROOT", "platform");
 		define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/" . ROOT);	
 		define("LIB_PHP", ROOT_PATH . "/lib/php"); 
 		define("LIB_JS", ROOT_PATH . "/lib/js");
